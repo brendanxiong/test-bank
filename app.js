@@ -3,6 +3,7 @@ const express = require('express');
 const multer = require('multer');
 const ejs = require('ejs');
 const path = require('path');
+const bodyP = require('body-parser');
 
 // Set The Storage Engine
 const storage = multer.diskStorage({
@@ -76,7 +77,8 @@ app.post('/upload', (req, res) => {
           msg: 'File Uploaded!',
           file: `uploads/${req.file.filename}`
         });
-       // console.log(file.filename);
+       console.log(req.body);
+       console.log(req.file);
       }
     }
   });
