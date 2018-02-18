@@ -1,49 +1,72 @@
 <!DOCTYPE html>
 <head>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	  <link href="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/font/octicons.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/font/octicons.css" rel="stylesheet">
 
 	<title>Upload</title>
 </head>
 
 <body>
-	<div class="container">
-    <h1>File Upload</h1>
-    <%= typeof msg != 'undefined' ? msg : '' %>
-    <form action="/upload" method="POST" enctype="multipart/form-data">
-      <div class="file-field input-field">
-        <div class="btn grey">
-          <span>File</span>
-          <input name="myPDF" type="file" accept="application/pdf">
-        </div>
-        <div class="file-path-wrapper">
-          <input class="file-path validate" type="text">
-        </div>
+	<div class="container text-center justify-content-center">
+<div class="btn-toolbar float-left my-2">
+        <a href="/" class="btn btn-link" role="button">
+          <span class="octicon octicon-chevron-left float-left ml-sm-2 my-1"></span>Upload
+        </a>
       </div>
-      <button type="submit" class="btn">Submit</button>
-    </form>
-    <br>
+
+		<h1>File Upload</h1>
+
+		<%= typeof msg != 'undefined' ? msg : '' %>
+		<form action="/upload" method="POST" enctype="multipart/form-data">
+			<div class="file-field input-field justify-content-center">
+				<div class="btn grey">
+					<span>File</span>
+					<input name="myPDF" type="file" accept="application/pdf">
+				</div>
+				<div class="file-path-wrapper">
+					<input class="file-path validate" type="text">
+				</div>
+			</div>
+			<button type="submit" class="btn btn-secondary">Submit</button>
+		</form>
+		<br/>
+
+
+		<form>
+			<div class="form-group row">
+				<label for="UID" class="col-sm-2 col-form-label">UID</label>
+				<div class="col-sm-10">
+					<input type="text" class="form-control-number" id="UID" placeholder="1234567890">
+				</div>
+			</div>
+			<div class="form-group row">
+				<label for="subjectArea" class="col-sm-2 col-form-label">Subject</label>
+				<div class="col-sm-10">
+					<select type="text" class="form-control selectpicker" id="subjectArea" data-live-search="true">
+						<option data-tokens="Aerospace Studies">Aerospace Studies</option>
+						<option data-tokens="African American Studies">African American Studies</option>
+					</select>
+				</div>
+			</div>
+
+			<button type="submit" class="btn btn-primary mb-2">Submit</button>
+</form>
+
 	</div>
 
 
 	<!-- jQuery CDN -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<!-- jQuery local fallback -->
-	<script>window.jQuery || document.write('<script src="/local/jquery.min.js"><\/script>')</script>
-	<!-- Bootstrap JS CDN -->
-	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-	<!-- Bootstrap JS local fallback -->
-	<script>if(typeof($.fn.modal) === 'undefined') {document.write('<script src="/local/bootstrap.min.js"><\/script>')}</script>
-	<!-- Bootstrap CSS local fallback -->
-	<div id="bootstrapCssTest" class="hidden"></div>
-	<script>
-		$(function() {
-			if ($('#bootstrapCssTest').is(':visible')) {
-				$("head").prepend('<link rel="stylesheet" href="/local/bootstrap.min.css">');
-			}
-		});
-	</script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+	<script type="text/javascript" src="load.js"></script>
 
 </body>

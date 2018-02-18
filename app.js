@@ -51,6 +51,15 @@ app.get('/', (req, res) => res.render('index'));
 app.get('/file', (req, res)=>{res.render('upage')});
 
 
+var $ = require('jquery');
+
+app.use(express.static(__dirname + '/js'));
+console.log(__dirname + '\\js');
+//require('./js/load.js');
+//require('./js/search.js');
+
+
+
 app.post('/upload', (req, res) => {
   upload(req, res, (err) => {
     if(err){
