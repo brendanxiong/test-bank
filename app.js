@@ -48,7 +48,7 @@ app.use(express.static('./public'));
 
 app.get('/', (req, res) => res.render('index'));
 
-app.get('/file', (req, res)=>{res.render('upload')});
+app.get('/file', (req, res)=>{res.render('upage')});
 
 
 app.post('/upload', (req, res) => {
@@ -63,7 +63,7 @@ app.post('/upload', (req, res) => {
           msg: 'Error: No File Selected!'
         });
       } else {
-        res.render('index', {
+        res.render('upage', {
           msg: 'File Uploaded!',
           file: `uploads/${req.file.filename}`
         });
@@ -73,6 +73,6 @@ app.post('/upload', (req, res) => {
   });
 });
 
-const port = 3000;
-
-app.listen(port, () => console.log(`Server started on port ${port}`));
+app.listen(3000, '0.0.0.0', function() {
+    console.log('Listening to port:  ' + 3000);
+});
