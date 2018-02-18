@@ -28,7 +28,21 @@ var re = new RegExp(".*" + $('#searchInput').val() + ".*");
   //    $btn.button('reset');
 });
 
+$('#getPDF').click(function() {
+  console.log("yes");
+  // $.get('http://localhost:3000/download', {name: "bfd"}, function(data, status) {
+  //   alert(data + status);
+  // });
+  $.ajax({
+    url: "http://localhost:3000/download",
+    type: "get",
+    data: {
+      name: "ERfbdv"
+    }
+  });
 
+  alert($_GET['name']);
+});
 
 RegExp.escape= function(s) {
     return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');

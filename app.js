@@ -106,16 +106,15 @@ app.post('/upload', (req, res) => {
           fs.writeFile('myjsonfile.json', json, 'utf8');
 
         }
-      });
+        });
       }
     }
   });
 });
 
-app.get("/", (req, res)=> {
-  fs.readFile('myjsonfile.json', 'utf8', function (err, data){
-
-  });
+app.get('/download', (req, res) => {
+  res.send(req.params.name);
+console.log("GET");
 });
 
   app.listen(3000, '0.0.0.0', function() {
