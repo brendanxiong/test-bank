@@ -1,5 +1,5 @@
 $(function() {
-  $('.selectpicker').selectpicker();
+ // $('.selectpicker').selectpicker();
 });
 
 $('#submit').click(function() {

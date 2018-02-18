@@ -77,11 +77,14 @@ app.post('/upload', (req, res) => {
           msg: 'File Uploaded!',
           file: `uploads/${req.file.filename}`
         });
-       console.log(req.body);
-       console.log(req.file);
       }
     }
   });
+});
+
+app.get('/download', (req, res) => {
+  res.send(req.params.name);
+console.log("GET");
 });
 
 app.listen(3000, '0.0.0.0', function() {
