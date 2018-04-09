@@ -10,3 +10,11 @@ Used NodeJS/ExpressJS/Multer for backend (POST/GET files and form data) and Boot
 Goal: Create a virtual test bank that is everywhere-accessible and crowd sourced.
 
 TODO: File organization on server-side, GET request for PDFs, authorization/authentication
+
+===
+
+Images:
+![alt text](https://github.com/ChrispsL/Socialist-Test-Bank/blob/master/images/Screenshot%20(16).png)
+![alt text](https://github.com/ChrispsL/Socialist-Test-Bank/blob/master/images/Screenshot%20(17).png)
+![alt text](https://github.com/ChrispsL/Socialist-Test-Bank/blob/master/images/Screenshot%20(18).png)
+![alt text](https://github.com/ChrispsL/Socialist-Test-Bank/blob/master/images/Screenshot%20(19).png)
