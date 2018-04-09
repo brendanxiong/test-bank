@@ -4,6 +4,138 @@
 		"selected_items":
 		[
 			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"company",
+				"companyNames"
+			],
+			[
+				"comp",
+				"companyNames"
+			],
+			[
+				"stoc",
+				"stockChart"
+			],
+			[
+				"graph",
+				"graphCompanies"
+			],
+			[
+				"gra",
+				"graphCompanies"
+			],
+			[
+				"calc",
+				"calcConfIntPlus"
+			],
+			[
+				"conf",
+				"confIntVal"
+			],
+			[
+				"stock",
+				"stockData"
+			],
+			[
+				"array",
+				"arrayOfGraphDataOfEachCompany"
+			],
+			[
+				"perof",
+				"performance"
+			],
+			[
+				"get",
+				"getGraphData"
+			],
+			[
+				"port",
+				"portfolio-analysis"
+			],
+			[
+				"perform",
+				"performanceURL"
+			],
+			[
+				"Po",
+				"PORTFOLIOS"
+			],
+			[
+				"Portfolios",
+				"portfolio-analysis"
+			],
+			[
+				"for",
+				"form-group"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"height",
+				"max-height"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"navbar",
+				"navbar-toggler"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"box-s",
+				"box-shadow"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"file_",
+				"file_put_contents"
+			],
+			[
+				"c",
+				"carousel"
+			],
+			[
+				"justi",
+				"justify-content-center"
+			],
+			[
+				"just",
+				"justify-content-end"
+			],
+			[
+				"justify-",
+				"justify-content-center"
+			],
+			[
+				"justif",
+				"justify-content-center"
+			],
+			[
+				"tet",
+				"text-center"
+			],
+			[
 				"overf",
 				"overflow"
 			],
@@ -72,10 +204,6 @@
 				"list-style-type"
 			],
 			[
-				"margin",
-				"margin-bottom"
-			],
-			[
 				"bor",
 				"border-bottom"
 			]
@@ -84,28 +212,55 @@
 	"buffers":
 	[
 		{
+			"file": "/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks/LA-Hacks-18-Tweet-Stocks/server.js",
+			"settings":
+			{
+				"buffer_size": 11649,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "views/index.ejs",
 			"settings":
 			{
-				"buffer_size": 2507,
+				"buffer_size": 2516,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/search.js",
+			"file": "/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks/LA-Hacks-18-Tweet-Stocks/views/analysis.ejs",
 			"settings":
 			{
-				"buffer_size": 6749,
+				"buffer_size": 6980,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/voidc/Documents/Classes/CS Projects/HOTH3/Galen/searcherJSON.js",
+			"file": "/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks/LA-Hacks-18-Tweet-Stocks/public/analysis.css",
 			"settings":
 			{
-				"buffer_size": 33869,
+				"buffer_size": 1145,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks/LA-Hacks-18-Tweet-Stocks/views/graph.ejs",
+			"settings":
+			{
+				"buffer_size": 2079,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "<!DOCTYPE html>"
+			}
+		},
+		{
+			"file": "/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks/LA-Hacks-18-Tweet-Stocks/views/index.ejs",
+			"settings":
+			{
+				"buffer_size": 2326,
 				"line_ending": "Windows"
 			}
 		}
@@ -143,15 +298,54 @@
 	"expanded_folders":
 	[
 		"/C/Users/voidc/Documents/Classes/CS Projects/Socialist-Test-Bank",
-		"/C/Users/voidc/Documents/Classes/CS Projects/Socialist-Test-Bank/js",
-		"/C/Users/voidc/Documents/Classes/CS Projects/Socialist-Test-Bank/views"
+		"/C/Users/voidc/Documents/Classes/CS Projects/Socialist-Test-Bank/views",
+		"/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks",
+		"/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks/LA-Hacks-18-Tweet-Stocks",
+		"/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks/LA-Hacks-18-Tweet-Stocks/public"
 	],
 	"file_history":
 	[
-		"/C/Users/voidc/Documents/Classes/CS Projects/Socialist-Test-Bank/node_modules/jquery/dist/core.js",
-		"/C/Users/voidc/Documents/Classes/CS Projects/HOTH3/Galen/searcherJSON.js",
+		"/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks/LA-Hacks-18-Tweet-Stocks/server.js",
+		"/C/Users/voidc/Documents/Classes/CS 35L/key1.txt",
+		"/C/Users/voidc/Documents/Classes/CS Projects/backup/server.js",
+		"/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks/LA-Hacks-18-Tweet-Stocks/ejs.js",
+		"/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks/views/partials/StockForm.ejs",
+		"/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks/views/index.ejs",
+		"/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks/server.js",
+		"/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks/package.json",
+		"/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks/ejs.js",
+		"/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks/partials/StockForm.html",
+		"/C/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Design drafts/One/script.js",
+		"/C/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Design drafts/One/mainstyle 3.css",
+		"/C/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Design drafts/One/resources.html",
+		"/C/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Design drafts/One/mainstyle 2.css",
+		"/C/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Design drafts/One/events.html",
+		"/C/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Design drafts/One/mainstyle 1.css",
+		"/C/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Design drafts/One/about.html",
+		"/C/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Design drafts/One/mainstyle.css",
+		"/C/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Design drafts/One/index.html",
+		"/C/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Prototype/Apache24/htdocs/resources.html",
+		"/C/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Prototype/Apache24/htdocs/events.html",
+		"/C/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Prototype/Apache24/htdocs/mainstyle.css",
+		"/C/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Prototype/Apache24/htdocs/index.html",
+		"/C/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Prototype/Apache24/htdocs/about.html",
+		"/C/Users/voidc/Documents/Classes/CS32/Project 4/Project 4/Project 4/wordlist.txt",
+		"/C/Users/voidc/Documents/Classes/CS32/Project 4/Project 4/Project 4/smallwords.txt",
+		"/C/Users/voidc/Documents/Classes/CS32/Project 4/Project 4/Debug/smallwords.txt",
+		"/C/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Prototype/Apache24/conf/httpd.conf",
+		"/C/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Prototype/Apache24/htdocs/increment.php",
 		"/C/Users/voidc/Documents/Classes/CS Projects/Socialist-Test-Bank/views/index.ejs",
+		"/C/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Prototype/Apache24/conf/extra/httpd-vhosts.conf",
+		"/C/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Prototype/Apache24/htdocs/index.php",
+		"/C/Apache24/conf/httpd.conf",
+		"/C/Apache24/htdocs/index.html",
 		"/C/Users/voidc/Documents/Classes/CS Projects/Socialist-Test-Bank/js/search.js",
+		"/C/Users/voidc/Documents/Classes/CS Projects/HOTH3/Galen/searcherJSON.js",
+		"/C/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Prototype/PHP/php.ini-production",
+		"/C/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Prototype/Apache/Apache24/conf/httpd.conf",
+		"/C/Users/voidc/AppData/Local/Temp/Temp1_NachenBlaster-sample-linux.zip/NachenBlaster/README",
+		"/C/Users/voidc/Desktop/cropper/app.js",
+		"/C/Users/voidc/Documents/Classes/CS Projects/Socialist-Test-Bank/node_modules/jquery/dist/core.js",
 		"/C/Users/voidc/Desktop/index.html",
 		"/C/Users/voidc/Documents/Classes/CS Projects/Socialist-Test-Bank/views/upage.ejs",
 		"/C/Users/voidc/Documents/Classes/CS Projects/Socialist-Test-Bank/js/load.js",
@@ -208,6 +402,78 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"gcp",
+			";\n",
+			"', ",
+			"decisions",
+			"tweet",
+			".map",
+			"response",
+			"graphs",
+			"60",
+			"\t\t\t  \t\t\tdataGrouping: { enabled: true, units: [['day', [1]], ['week', [1]], ['month', [1, 2, 3, 4, 5, 6]]], forced: true }\n",
+			"\t\t\t  \t\t\tdataGrouping: { enabled: true, units: ['week', [1]], forced: true }\n",
+			"tooltip: { valueDecimals: 2 }",
+			"for each",
+			"res",
+			"confInt",
+			"response",
+			"AAPL MSFT",
+			"backside",
+			"frontside",
+			"image-flip",
+			"image",
+			"reg",
+			"local",
+			"httpd-v",
+			"virtualHost",
+			"listen",
+			"host",
+			"Name",
+			"name",
+			"php",
+			":80",
+			"order",
+			"server",
+			"listen",
+			":3000",
+			":80",
+			"listen",
+			"cgi-bin",
+			"localhost",
+			"allow from",
+			"cgi-bin",
+			"htdocs",
+			"DirectoryIndex",
+			"addtype",
+			"index",
+			"html",
+			"<div class=\"container\">\n\t\t<div id=\"front-slideshow\" class=\"carousel slide\" data-ride=\"carousel\">\n\t\t\t<ol class=\"carousel-indicators\">\n    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"0\" class=\"active\"></li>\n    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"1\"></li>\n    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"2\"></li>\n  </ol>\n\t\t\t<div class=\"carousel-inner\">\n\t\t\t\t<div class=\"carousel-item active\">\n\t\t\t\t\t<img class=\"d-block w-100\" src=\"https://i2.wp.com/uclacki.org/wp-content/uploads/2018/02/28547988_2052023551492285_52311871_o.jpg?zoom=1.25&resize=700%2C441\" alt=\"First Slide\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<img class=\"d-block w-100\" src=\"https://i2.wp.com/uclacki.org/wp-content/uploads/2018/02/28547988_2052023551492285_52311871_o.jpg?zoom=1.25&resize=700%2C441\" alt=\"Second Slide\">\n\t\t\t\t</div>\n\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<img class=\"d-block w-100\" src=\"https://i2.wp.com/uclacki.org/wp-content/uploads/2018/02/28547988_2052023551492285_52311871_o.jpg?zoom=1.25&resize=700%2C441\" alt=\"Third Slide\">\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<a class=\"carousel-control-prev\" href=\"#front-slideshow\" role=\"button\" data-slide=\"prev\">\n\t\t\t\t<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n\t\t\t\t<span class=\"sr-only\">Previous</span>\n\t\t\t</a>\n\t\t\t<a class=\"carousel-control-next\" href=\"#front-slideshow\" role=\"button\" data-slide=\"next\">\n\t\t\t\t<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n\t\t\t\t<span class=\"sr-only\">Next</span>\n\t\t\t</a>\n\t\t</div>\n\t</div>",
+			"\t\t\n",
+			" <",
+			"alias",
+			"htaccess",
+			"alias",
+			"\t\n",
+			"css",
+			"=\"/",
+			"c:/Apache24",
+			"localhost",
+			"htdoc",
+			"dir_mod",
+			"directoryindex",
+			"directorindex",
+			"index.html",
+			"C:/users/voi",
+			"DIRECTORyindex",
+			"directory",
+			"ServerName",
+			"listening",
+			"c:/Apache24/",
+			"c:/Apache24",
+			"directory",
+			"direct",
+			"extension",
 			"dict",
 			"grey",
 			"in",
@@ -263,10 +529,7 @@
 			"value",
 			"quot",
 			"&quot; &quot;",
-			"&quot; &quot;value&quot;:&quot;",
-			"} ",
-			"&quot;label&quot;:&quot;",
-			","
+			"&quot; &quot;value&quot;:&quot;"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -274,6 +537,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"C:/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Prototype/Apache24",
+			"C:/Users/voidc/Documents/Circle K Tech Chair 2018-2019/Website Prototype/Apache24/",
 			"\\&",
 			"&",
 			" ",
@@ -298,76 +563,16 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "views/index.ejs",
+					"file": "/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks/LA-Hacks-18-Tweet-Stocks/server.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2507,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1419,
-								1419
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 153.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/search.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6749,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5872,
-								5872
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/voidc/Documents/Classes/CS Projects/HOTH3/Galen/searcherJSON.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 33869,
+						"buffer_size": 11649,
 						"regions":
 						{
 						},
@@ -375,7 +580,7 @@
 						[
 							[
 								0,
-								4952
+								0
 							]
 						],
 						"settings":
@@ -387,7 +592,156 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/index.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2516,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1277,
+								1277
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 311.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks/LA-Hacks-18-Tweet-Stocks/views/analysis.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3319,
+								3319
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 687.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks/LA-Hacks-18-Tweet-Stocks/public/analysis.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								457,
+								457
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 70.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks/LA-Hacks-18-Tweet-Stocks/views/graph.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2079,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								605,
+								605
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<!DOCTYPE html>",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/voidc/Documents/Classes/CS Projects/LA Hacks/LA-Hacks-18-Tweet-Stocks/views/index.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1187,
+								1187
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 277.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -399,7 +753,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 43.0
 	},
 	"layout":
 	{
