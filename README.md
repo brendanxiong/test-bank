@@ -1,4 +1,4 @@
-# Socialist-Test-Bank
+# test-bank
 Hack-on-the-Hill 4 project by Chris Lam, Keith Atienza, and Brendan Xiong.
 
 Devpost link: https://devpost.com/software/socialist-test-bank
